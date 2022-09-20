@@ -1,0 +1,32 @@
+.card{
+    width: 240px;
+    height: 320px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px  rgb(175, 171, 171);
+    margin-bottom: 60px;
+    align-self: flex-start;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px 5px 0px 0px;
+}
+.info{
+    margin: 15px 20px;
+}
+
+.info h1{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.info p{
+    display: inline;
+    font-weight: 400;
+    margin-left: 3px;
+}
+.info span{
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+}

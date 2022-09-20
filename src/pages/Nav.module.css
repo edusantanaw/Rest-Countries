@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 11vh;
+    padding: 0px 80px;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid rgba(134, 131, 131, 0.497);
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+header span{
+    font-weight: bold;
+}
