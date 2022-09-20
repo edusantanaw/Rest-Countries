@@ -1,6 +1,6 @@
-import styles from './Country.module.css'
+import styles from './CountryCard.module.css'
 
-export default function Country({key, name, population, capital, image, region}){
+export default function CountryCard({key, name, population, capital, image, region}){
     return(
         <div key = {key} className={styles.card}>
             <img src={image} alt="flag" />
